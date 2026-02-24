@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
-Route::get('/user/{name?}', function ($name='Nevita') {
-return 'Nama saya '.$name;
-});
+Route::get('/articles/{id}', [PageController::class,'articles']);

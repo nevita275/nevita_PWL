@@ -14,3 +14,9 @@ OUTPUT PRAKTIKUM 01:
 ![PRAKTIKUM - 01](screenshoot/myname.png)
 ![PRAKTIKUM - 01](screenshoot/isnevita.png)
 
+OUTPUT PRAKTIKUM 02:
+![PRAKTKUM - 02](screenshoot/helloworld2.png)
+![PRAKTIKUM - 02](screenshoot/home.png)
+![PRAKTIKUM - 02](screenshoot/about.png)
+![PRAKTIKUM - 02](screenshoot/articles.png)
+
