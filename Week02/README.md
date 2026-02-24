@@ -4,7 +4,7 @@ NIM   : 244107020208 <br>
 KELAS : TI-2F
 
 OUTPUT PRAKTIKUM 01:
-![PRAKTIKUM - 01](screenshoot/helloword.png)
+![PRAKTIKUM - 01](screenshoot/helloworld.png)
 ![PRAKTIKUM - 01](screenshoot/world.png)
 ![PRAKTIKUM - 01](screenshoot/selamatdatang.png)
 ![PRAKTIKUM - 01](screenshoot/namanim.png)
