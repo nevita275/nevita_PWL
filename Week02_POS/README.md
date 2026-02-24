@@ -3,7 +3,7 @@ NIM    : 244107020208 <br>
 KELAS  : TI-2F
 
 TAMPILAN HOME:
-![SOAL](sreenshoot/home.png)
+![SOAL](sreenshoot/homepos.png)
 
 TAMPILAN PRODUK:
 KATEGORI FOOD-BEVERAGE:
