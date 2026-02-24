@@ -19,4 +19,4 @@ OUTPUT PRAKTIKUM 02:
 ![PRAKTIKUM - 02](screenshoot/home.png)
 ![PRAKTIKUM - 02](screenshoot/about.png)
 ![PRAKTIKUM - 02](screenshoot/articles.png)
-
+![PRAKTIKUM - 02](screenshoot/routelist.png)
