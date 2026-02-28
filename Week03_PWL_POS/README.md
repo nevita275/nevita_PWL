@@ -8,8 +8,8 @@ PRAKTIKUM 01:
 
 
 PRAKTIKUM 02.1:
-![CEK2](screenshoot/m_level_table.png)
 ![CEK](screenshoot/database_m_level.png)
+![CEK2](screenshoot/m_level_table.png)
 ![CEK1](screenshoot/kategori_supplier.png)
 
 
