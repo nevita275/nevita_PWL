@@ -17,3 +17,25 @@ PRAKTIKUM 02.2:
 ![CEK3](screenshoot/barang_penjualan_stok_penjualandetail.png)
 ![ERD](screenshoot/erd.png)
 
+
+PRAKTIKUM 3:
+LevelSeeder:
+![LEVELSEEDER](screenshoot/levelseeder.png)
+UserSeeder:
+![USERSEEDER](screenshoot/userseeder.png)
+KategoriSeeder:
+![KATEGORISEEDER](screenshoot/kategoriseeder.png)
+SupplierSeeder:
+![SUPPLIERSEEDER](screenshoot/supplierseeder.png)
+BarangSeeder:
+![BARANGSEEDER](screenshoot/barangseeder.png)
+StokSeeder:
+![STOKBARANG](screenshoot/stokbarang.png)
+PenjualanSeeder:
+![PENJUALANSEEDER](screenshoot/penjualanseeder.png)
+PenjualanDetailSeeder:
+![PENJUALANDETAIL](screenshoot/penjualandetailseeder.png)
+
+
+
+
