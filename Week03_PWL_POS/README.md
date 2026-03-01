@@ -38,18 +38,33 @@ PenjualanDetailSeeder:
 
 
 PRAKTIKUM 04: <br>
-Insert Data Baru:
-![INSERT](screenshoot/insertdatabaru.png)
-Update Data
+Insert Data Baru Level:
+![INSERT](screenshoot/insertdatabaru.png) <br>
+Update Data Level:
 ![UPDATE](screenshoot/updatedata.png)
-![UPDATE1](screenshoot/updatedidatabase.png)
-Delete Data:
+![UPDATE1](screenshoot/updatedidatabase.png) <br>
+Delete Data Level:
 ![DELETE](screenshoot/deletedata.png)
-![DELETE1](screenshoot/deletedidatabase.png)
+![DELETE1](screenshoot/deletedidatabase.png) <br>
 Output:
-![HASILTABEL](screenshoot/hasiltabel.png)
+![HASILTABEL](screenshoot/hasiltabel.png) <br>
 
-PRAKTIKUM 05:
+
+PRAKTIKUM 05: <br>
+Insert Data Kategori:
+![INSERTDATA](screenshoot/insertdatakategori.png)
+![INSERTDATABASE](screenshoot/insertkategoridatabase.png) <br>
+Update Data Kategori:
+![UPDATE](screenshoot/updatekategori.png)
+![UPDATE1](screenshoot/updatekategoridatabase.png) <br>
+Detele Data Kategori
+![DELETE2](screenshoot/deletekategori.png)
+![DELETE3](screenshoot/deletekategoridatabase.png) <br>
+Output:
+![HASIL](screenshoot/hasiltabelkategori.png)
+
+
+
 
 
 
