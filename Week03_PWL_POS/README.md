@@ -18,7 +18,7 @@ PRAKTIKUM 02.2:
 ![ERD](screenshoot/erd.png)
 
 
-PRAKTIKUM 3:
+PRAKTIKUM 03: <br>
 LevelSeeder:
 ![LEVELSEEDER](screenshoot/levelseeder.png)
 UserSeeder:
@@ -35,6 +35,22 @@ PenjualanSeeder:
 ![PENJUALANSEEDER](screenshoot/penjualanseeder.png)
 PenjualanDetailSeeder:
 ![PENJUALANDETAIL](screenshoot/penjualandetailseeder.png)
+
+
+PRAKTIKUM 04: <br>
+Insert Data Baru:
+![INSERT](screenshoot/insertdatabaru.png)
+Update Data
+![UPDATE](screenshoot/updatedata.png)
+![UPDATE1](screenshoot/updatedidatabase.png)
+Delete Data:
+![DELETE](screenshoot/deletedata.png)
+![DELETE1](screenshoot/deletedidatabase.png)
+Output:
+![HASILTABEL](screenshoot/hasiltabel.png)
+
+PRAKTIKUM 05:
+
 
 
 
