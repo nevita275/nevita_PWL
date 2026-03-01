@@ -64,6 +64,12 @@ Output:
 ![HASIL](screenshoot/hasiltabelkategori.png)
 
 
+PRAKTIKUM 06:
+![MODIF1](screenshoot/modifuser.png)
+![MODIF3](screenshoot/modifuser3.png)
+
+
+
 
 
 
