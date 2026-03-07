@@ -86,11 +86,21 @@ PENUTUP: <br>
 11.Tujuan penulisan 'protected $table & $primaryKey': Laravel Eloquent secara default akan mencari nama tabel berbentuk plural (misal: user_models) dan primary key bernama id. Karena kita menggunakan nama tabel kustom (m_user) dan PK kustom (user_id), kita wajib mendeklarasikan properti tersebut agar Model tahu tabel mana yang harus diakses. <br>
 
 12.Cara yang lebih mudah (DB Facade / Query Builder / Eloquent ORM): Yang paling mudah dan efisien adalah Eloquent ORM. Karena memperlakukan tabel sebagai Objek (Object Oriented), kodenya menjadi jauh lebih rapi, tidak perlu menulis syntax SQL yang panjang secara manual, dan sangat memudahkan ketika harus berurusan dengan relasi antar tabel nantinya. <br>
-
+<br><br><br>
 
 PRAKTIKUM WEEK 04: <br>
-PRAKTIKUM O1:
+PRAKTIKUM 01:
 ![WEEK4](screenshoot/propertifillable.png) <br>
+
+PRAKTIKUM 02.1: <br>
+(find(1))
+![WEEK4](screenshoot/find1.png)
+(findOr(1))
+![WEEK](screenshoot/findor1.png)
+(findOr(20))
+![WEEK4](screenshoot/findor20.png) <br>
+
+
 
 
 
