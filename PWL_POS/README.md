@@ -1,6 +1,7 @@
 NAMA    : NEVITA TRIYA YULIANA <br>
 NIM     : 244107020208 <br>
 KELAS   : TI-2F
+<br><br>
 
 PRAKTIKUM WEEK 03: <br>
 PRAKTIKUM 01:
@@ -89,18 +90,22 @@ PENUTUP: <br>
 <br><br><br>
 
 PRAKTIKUM WEEK 04: <br>
-PRAKTIKUM 01:
+PRAKTIKUM 01($fillable):
 ![WEEK4](screenshoot/propertifillable.png) <br>
 
-PRAKTIKUM 02.1: <br>
-(find(1))
+PRAKTIKUM 02.1(Retrieving Single Models): <br>
+(find(1)):
 ![WEEK4](screenshoot/find1.png)
-(findOr(1))
+(findOr(1)):
 ![WEEK](screenshoot/findor1.png)
-(findOr(20))
+(findOr(20)):
 ![WEEK4](screenshoot/findor20.png) <br>
 
-
+PRAKTIKUM 02.2(Not Found Exceptions): <br>
+findOrFail(1):
+![WEEK4](screenshoot/findorfail1.png)
+findOrfail(manager9):
+![WEEK4](screenshoot/findorfailmanager9.png)
 
 
 
