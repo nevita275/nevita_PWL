@@ -2,21 +2,18 @@ NAMA    : NEVITA TRIYA YULIANA <br>
 NIM     : 244107020208 <br>
 KELAS   : TI-2F
 
-
+PRAKTIKUM WEEK 03: <br>
 PRAKTIKUM 01:
-![DATABASE](screenshoot/database.png) 
-
+![DATABASE](screenshoot/database.png) <br>
 
 PRAKTIKUM 02.1:
 ![CEK](screenshoot/database_m_level.png)
 ![CEK2](screenshoot/m_level_table.png)
-![CEK1](screenshoot/kategori_supplier.png)
-
+![CEK1](screenshoot/kategori_supplier.png) <br>
 
 PRAKTIKUM 02.2:
 ![CEK3](screenshoot/barang_penjualan_stok_penjualandetail.png)
-![ERD](screenshoot/erd.png)
-
+![ERD](screenshoot/erd.png) <br>
 
 PRAKTIKUM 03: <br>
 LevelSeeder:
@@ -34,8 +31,7 @@ StokSeeder:
 PenjualanSeeder:
 ![PENJUALANSEEDER](screenshoot/penjualanseeder.png)
 PenjualanDetailSeeder:
-![PENJUALANDETAIL](screenshoot/penjualandetailseeder.png)
-
+![PENJUALANDETAIL](screenshoot/penjualandetailseeder.png) <br>
 
 PRAKTIKUM 04: <br>
 Insert Data Baru Level:
@@ -48,7 +44,6 @@ Delete Data Level:
 ![DELETE1](screenshoot/deletedidatabase.png) <br>
 Output:
 ![HASILTABEL](screenshoot/hasiltabel.png) <br>
-
 
 PRAKTIKUM 05: <br>
 Insert Data Kategori:
@@ -63,11 +58,9 @@ Detele Data Kategori
 Output:
 ![HASIL](screenshoot/hasiltabelkategori.png)
 
-
 PRAKTIKUM 06:
 ![MODIF1](screenshoot/modifuser.png)
 ![MODIF3](screenshoot/modifuser3.png)
-
 
 PENUTUP: <br>
 1.Fungsi APP_KEY pada file .env Laravel: Berfungsi sebagai kunci rahasia (secret key) utama yang digunakan oleh Laravel untuk berbagai proses enkripsi dasar, seperti mengamankan session, enkripsi cookies, dan pembuatan token sandi. <br>
@@ -92,9 +85,12 @@ PENUTUP: <br>
 
 11.Tujuan penulisan 'protected $table & $primaryKey': Laravel Eloquent secara default akan mencari nama tabel berbentuk plural (misal: user_models) dan primary key bernama id. Karena kita menggunakan nama tabel kustom (m_user) dan PK kustom (user_id), kita wajib mendeklarasikan properti tersebut agar Model tahu tabel mana yang harus diakses. <br>
 
-12.Cara yang lebih mudah (DB Facade / Query Builder / Eloquent ORM): Yang paling mudah dan efisien adalah Eloquent ORM. Karena memperlakukan tabel sebagai Objek (Object Oriented), kodenya menjadi jauh lebih rapi, tidak perlu menulis syntax SQL yang panjang secara manual, dan sangat memudahkan ketika harus berurusan dengan relasi antar tabel nantinya.
+12.Cara yang lebih mudah (DB Facade / Query Builder / Eloquent ORM): Yang paling mudah dan efisien adalah Eloquent ORM. Karena memperlakukan tabel sebagai Objek (Object Oriented), kodenya menjadi jauh lebih rapi, tidak perlu menulis syntax SQL yang panjang secara manual, dan sangat memudahkan ketika harus berurusan dengan relasi antar tabel nantinya. <br>
 
 
+PRAKTIKUM WEEK 04: <br>
+PRAKTIKUM O1:
+![WEEK4](screenshoot/propertifillable.png) <br>
 
 
 
