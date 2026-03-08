@@ -148,4 +148,8 @@ Mengubah Data user:
 Menghapus Data user:
 ![WEEK4](screenshoot/deletedatauser.png) <br>
 
-
+PRAKTIKUM 02.7(Relationships): <br>
+Relasi Antar Tabel:
+![WEEK4](screenshoot/relasiantartabel.png)
+Menambahkan Kode Level dan Nama Level:
+![WEEK4](screenshoot/kodelevel&namalevel.png)
