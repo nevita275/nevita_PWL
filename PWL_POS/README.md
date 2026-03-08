@@ -135,9 +135,9 @@ wasChanged:
 
 PRAKTIKUM 02.6(Create, Read, Update, Delete (CRUD)): <br>
 Langkah 1&2:
-![WEEK4](screenshoot/langkah1&2.png)
+![WEEK4](screenshoot/langkah1&2.png) <br>
 Langkah 4s/d6:
-![WEEK4](screenshoot/langkah 4sampai6.png)
+![WEEK4](screenshoot/langkah4sampai6.png)
 Menambahkan Data User:
 ![WEEK4](screenshoot/menambahkandatauser.png)
 ![WEEK4](screenshoot/savedatauser.png)
