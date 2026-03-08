@@ -112,6 +112,21 @@ PRAKTIKUM 02.03(Retreiving Aggregrates):
 Menampilkan jumlah pengguna dengan id 2:
 ![WEEK4](screenshoot/jmlhpenggunaid2.png) <br>
 
+PRAKTIKUM 02.4(Retreiving or Creating Models): <br>
+firstOrCreate Manager:
+![WEEK4](screenshoot/manager.png)
+firstOrCreate Manager22:
+![WEEK4](screenshoot/manager22.png)
+![WEEK4](screenshoot/dbmanager22.png) <br>
+firstOrNew Manager:
+![WEEK4](screenshoot/firstornewmanager.png)
+firstOrNew Manager33:
+![WEEK4](screenshoot/firstornewmanager33.png)
+(Karena data manager33 masih berupa draf dan belum resmi dimasukkan ke dalam tabel PostgreSQL, maka database belum sempat membuatkan dan memberikan nomor urut ID untuknya) <br>
+Menambahkan $user->save();:
+![WEEK4](screenshoot/firstornewmanager33+save.png) 
+![WEEK4](screenshoot/dbfirstornewmanager33+save.png) <br>
+
 
 
 
