@@ -133,9 +133,19 @@ isDirty():
 wasChanged:
 ![WEEK4](screenshoot/waschanged.png) <br>
 
-
-
-
-
+PRAKTIKUM 02.6(Create, Read, Update, Delete (CRUD)):
+Langkah 1&2:
+![WEEK4](screenshoot/langkah1&2.png)
+Langkah 4s/d6:
+![WEEK4](screenshoot/langkah 4-6.png)
+Menambahkan Data User:
+![WEEK4](screenshoot/menambahkandatauser.png)
+![WEEK4](screenshoot/.png)
+Menjalankan link 'ubah':
+![WEEK4](screenshoot/ubahdata.png)
+Mengubah Data user:
+![WEEK4](screenshoot/ubahdatasimpan.png)
+Menghapus Data user:
+![WEEK4](screenshoot/deletedatauser.png) <br>
 
 
