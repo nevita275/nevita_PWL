@@ -127,6 +127,13 @@ Menambahkan $user->save();:
 ![WEEK4](screenshoot/firstornewmanager33+save.png) 
 ![WEEK4](screenshoot/dbfirstornewmanager33+save.png) <br>
 
+PRAKTIKUM 02.5(Attribute Changes): <br>
+isDirty():
+![WEEK4](screenshoot/isdirty.png)
+wasChanged:
+![WEEK4](screenshoot/waschanged.png) <br>
+
+
 
 
 
