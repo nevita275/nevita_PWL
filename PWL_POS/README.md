@@ -105,7 +105,14 @@ PRAKTIKUM 02.2(Not Found Exceptions): <br>
 findOrFail(1):
 ![WEEK4](screenshoot/findorfail1.png)
 findOrfail(manager9):
-![WEEK4](screenshoot/findorfailmanager9.png)
+![WEEK4](screenshoot/findorfailmanager9.png) <br>
+
+PRAKTIKUM 02.03(Retreiving Aggregrates): 
+![WEEK4](screenshoot/count.png) <br>
+Menampilkan jumlah pengguna dengan id 2:
+![WEEK4](screenshoot/jmlhpenggunaid2.png) <br>
+
+
 
 
 
