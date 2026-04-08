@@ -52,10 +52,10 @@ Menu Users di sidebar
 ## Menampilkan Data pada Tabel 
 ![](img/tabel-user.png)
 ## Mengganti Icon Menu Resource 
-sebelum:
-![](img/icon-before.png)
-setelah:
-![](img/icon-after.png)
+sebelum: <br>
+![](img/icon-before.png) <br>
+setelah:<br>
+![](img/icon-after.png)<br>
 ## Analisis & Diskusi 
 1.Karena Filament menggunakan arsitektur Resource-driven berbasis Laravel (Eloquent & Livewire). Perintah make:filament-resource otomatis men-generate struktur halaman lengkap (List, Create, Edit) yang sudah terhubung dengan model database, sehingga developer tidak perlu menulis controller, routing, atau view (HTML/Blade) secara manual. <br>
 2.Form Schema untuk Mengatur antarmuka input data (seperti teks, dropdown) untuk halaman Create (tambah) dan Edit (ubah). Sedangkan Table Schema untuk Mengatur antarmuka tampilan data (seperti kolom informasi) untuk halaman List (daftar/tabel). <br>
