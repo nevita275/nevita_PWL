@@ -60,4 +60,34 @@ setelah:<br>
 1.Karena Filament menggunakan arsitektur Resource-driven berbasis Laravel (Eloquent & Livewire). Perintah make:filament-resource otomatis men-generate struktur halaman lengkap (List, Create, Edit) yang sudah terhubung dengan model database, sehingga developer tidak perlu menulis controller, routing, atau view (HTML/Blade) secara manual. <br>
 2.Form Schema untuk Mengatur antarmuka input data (seperti teks, dropdown) untuk halaman Create (tambah) dan Edit (ubah). Sedangkan Table Schema untuk Mengatur antarmuka tampilan data (seperti kolom informasi) untuk halaman List (daftar/tabel). <br>
 3.Cukup tambahkan metode ->unique(ignoreRecord: true) pada komponen TextInput di dalam Form Schema. Pengaturan ignoreRecord: true mencegah error validasi saat pengguna sedang memperbarui (edit) data miliknya sendiri. <br>
-4.Karena Filament otomatis terintegrasi dengan sistem autentikasi Laravel. Ketika input didefinisikan sebagai ->password(), Filament dan model User Laravel (melalui casting) akan secara otomatis mengenkripsi (hash) password tersebut sebelum disimpan ke database.<br>
+4.Karena Filament otomatis terintegrasi dengan sistem autentikasi Laravel. Ketika input didefinisikan sebagai ->password(), Filament dan model User Laravel (melalui casting) akan secara otomatis mengenkripsi (hash) password tersebut sebelum disimpan ke database.<br><br>
+
+## JOBSHEET 03
+## Langkah Praktikum :
+## Langkah 1 – Membuat Model & Migration Category 
+![](img/category.png)
+![](img/ssvscode.png)<br>
+## Langkah 2 – Mendesain Tabel Categories 
+![](img/migratecategory.png)
+![](img/dbcategory.png)
+## Langkah 3 – Mengatur Model Category
+![](img/modelcategory.png)
+## Langkah 4 – Generate Model Post 
+![](img/post.png)
+## Langkah 5 – Mendesain Struktur Tabel Posts 
+![](img/migrateposts.png)
+## Membuat Resource Category di Filament
+![](img/resourcecategory.png)
+![](img/hasilcategory.png)
+## Edit Form Category
+![](img/createcategory.png)
+## Edit Table Category
+![](img/createtablecategory.png)
+![](img/hasilcreatetablecategory.png)
+## Analisis & Diskusi
+1.Aturan $fillable berfungsi sebagai sistem keamanan (whitelist) pada model Laravel untuk mengizinkan kolom-kolom mana saja yang boleh diisi datanya secara sekaligus (mass assignment) . Filament di balik layar menggunakan metode mass assignment ini saat menyimpan data dari form inputan langsung ke database. Jika kolom tidak didaftarkan di $fillable, Laravel akan mengabaikan data tersebut dan tidak menyimpannya untuk mencegah manipulasi data dari luar. <br>
+2.Fungsi $casts digunakan untuk mengonversi (casting) tipe data secara otomatis ketika dibaca dari atau disimpan ke database. <br>
+3.Integer biasa: Hanya tipe data dasar yang menampung angka bulat bebas tanpa adanya validasi atau aturan keterikatan dengan tabel lain. Sedangkan Foreign Key (Kunci Tamu): Sebuah kolom (biasanya bertipe integer/bigInteger) yang menciptakan aturan integritas referensial secara fisik di level database (seperti PostgreSQL). Foreign Key memaksa aturan bahwa nilai yang diinputkan (misalnya category_id di tabel posts) harus secara nyata ada dan valid sebagai id di tabel referensinya (categories). Ini mencegah masuknya data fiktif.<br>
+4.-> Jika menggunakan aturan Cascade (seperti cascadeOnDelete() yang baru saja diterapkan sebelumnya), maka saat sebuah Kategori dihapus, semua Post yang bernaung di bawah kategori tersebut akan ikut terhapus secara otomatis. <br>
+-> Jika menggunakan aturan Restrict, sistem database PostgreSQL akan menolak/memblokir penghapusan Kategori tersebut sampai semua Post miliknya dipindahkan ke kategori lain atau dihapus lebih dahulu.<br>
+-> Jika tidak ada aturan Foreign Key sama sekali, Kategori akan terhapus, membiarkan data Post tertinggal menjadi data yatim (orphaned data) karena menunjuk pada category_id yang sudah tidak ada.<br>
