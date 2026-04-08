@@ -90,4 +90,7 @@ setelah:<br>
 3.Integer biasa: Hanya tipe data dasar yang menampung angka bulat bebas tanpa adanya validasi atau aturan keterikatan dengan tabel lain. Sedangkan Foreign Key (Kunci Tamu): Sebuah kolom (biasanya bertipe integer/bigInteger) yang menciptakan aturan integritas referensial secara fisik di level database (seperti PostgreSQL). Foreign Key memaksa aturan bahwa nilai yang diinputkan (misalnya category_id di tabel posts) harus secara nyata ada dan valid sebagai id di tabel referensinya (categories). Ini mencegah masuknya data fiktif.<br>
 4.-> Jika menggunakan aturan Cascade (seperti cascadeOnDelete() yang baru saja diterapkan sebelumnya), maka saat sebuah Kategori dihapus, semua Post yang bernaung di bawah kategori tersebut akan ikut terhapus secara otomatis. <br>
 -> Jika menggunakan aturan Restrict, sistem database PostgreSQL akan menolak/memblokir penghapusan Kategori tersebut sampai semua Post miliknya dipindahkan ke kategori lain atau dihapus lebih dahulu.<br>
--> Jika tidak ada aturan Foreign Key sama sekali, Kategori akan terhapus, membiarkan data Post tertinggal menjadi data yatim (orphaned data) karena menunjuk pada category_id yang sudah tidak ada.<br>
+-> Jika tidak ada aturan Foreign Key sama sekali, Kategori akan terhapus, membiarkan data Post tertinggal menjadi data yatim (orphaned data) karena menunjuk pada category_id yang sudah tidak ada.<br> <br> <br>
+
+
+## LAPORAN PRAKTIKUM WEEK06
