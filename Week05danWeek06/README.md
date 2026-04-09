@@ -1,6 +1,6 @@
-NAMA  : NEVITA TRIYA YULIANA <br>
-KELAS : TI-2F <br>
-ABSEN : 20 <br>
+## NAMA  : NEVITA TRIYA YULIANA <br>
+## KELAS : TI-2F <br>
+## ABSEN : 20 <br>
 
 ## LAPORAN PRAKTIKUM WEEK05
 
@@ -94,3 +94,33 @@ setelah:<br>
 
 
 ## LAPORAN PRAKTIKUM WEEK06
+
+## JOBSHEET 01
+## Membuat Resource Post
+![](img/resourcepost.png)
+![](img/vscd1.png) <br>
+![](img/web1.png)
+![](img/web2.png)
+## Implementasi Form Elements
+![](img/web3.png)
+![](img/web4.png)
+![](img/web5.png)
+![](img/web6.png)
+![](img/web7.png)
+![](img/web8.png)
+![](img/web9.png)
+![](img/web10.png)
+![](img/web11.png)
+![](img/web12.png)
+![](img/web13.png)
+![](img/web14.png)
+## Menampilkan Data di Tabel
+![](img/web15.png)
+![](img/web16.png)
+![](img/web17.png)
+## Analisis & Diskusi
+1.File yang diunggah secara default disimpan di folder storage/app/public yang tidak dapat diakses langsung oleh browser. Perintah storage:link membuat jalan pintas (symlink) dari folder public/storage ke storage/app/public sehingga gambar tersebut bisa diakses secara publik dan ditampilkan di web.<br>
+2.Fungsi $casts pada model Laravel berguna untuk mengubah tipe data secara otomatis. Untuk field seperti tags yang menggunakan komponen TagsInput, datanya berupa array. Database tidak bisa menyimpan array mentah, jadi $casts akan mengubah array tersebut menjadi format JSON saat disimpan ke database, dan mengembalikannya menjadi array saat dipanggil oleh Filament.<br>
+3.Pada tabel atau form Filament, jika kita menggunakan category_id, yang muncul hanyalah angka (ID/Foreign Key). Dengan memanggil category.name, kita menyuruh Filament untuk melihat relasi tabel kategori dan menampilkan nama kategori yang sebenarnya, sehingga jauh lebih mudah dibaca oleh pengguna.<br>
+4.-> RichEditor: Adalah editor WYSIWYG (What You See Is What You Get). Tampilannya mirip seperti Microsoft Word, pengguna bisa langsung klik tombol untuk menebalkan teks, membuat tabel, dll. Hasilnya disimpan dalam format HTML. <br>
+-> MarkdownEditor: Editor berbasis teks yang menggunakan sintaks khusus (seperti **teks tebal** atau # Heading). Biasanya lebih disukai oleh programmer karena formatnya lebih bersih. <br>
