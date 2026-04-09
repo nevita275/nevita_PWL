@@ -118,6 +118,7 @@ setelah:<br>
 ![](img/web15.png)
 ![](img/web16.png)
 ![](img/web17.png)
+![](img/web18.png)
 ## Analisis & Diskusi
 1.File yang diunggah secara default disimpan di folder storage/app/public yang tidak dapat diakses langsung oleh browser. Perintah storage:link membuat jalan pintas (symlink) dari folder public/storage ke storage/app/public sehingga gambar tersebut bisa diakses secara publik dan ditampilkan di web.<br>
 2.Fungsi $casts pada model Laravel berguna untuk mengubah tipe data secara otomatis. Untuk field seperti tags yang menggunakan komponen TagsInput, datanya berupa array. Database tidak bisa menyimpan array mentah, jadi $casts akan mengubah array tersebut menjadi format JSON saat disimpan ke database, dan mengembalikannya menjadi array saat dipanggil oleh Filament.<br>
