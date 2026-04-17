@@ -3,8 +3,13 @@
 ## ABSEN : 20 <br>
 
 ## LAPORAN PRAKTIKUM WEEK05
+<br>
 
-## JOBSHEET 01 
+<details>
+
+<summary><h4> JOBSHEET 01 </h4></summary>
+<br>
+<blockquote>
 ## Langkah Praktikum :
 ## Langkah 1 – Membuat Project Laravel Baru 
 Install Laravel dengan nama project Week05 <br>
@@ -30,6 +35,12 @@ Database:
 2.Filament dibangun menggunakan Livewire untuk memberikan interaktivitas dinamis pada halaman web tanpa perlu menulis banyak kode JavaScript khusus atau melakukan reload halaman penuh. <br>
 3.SQLite adalah database berbasis file yang sangat ringan dan mudah disetup (cocok untuk testing cepat). Sedangkan MySQL atau PostgreSQL (yang digunakan pada project ini di pgAdmin) adalah sistem manajemen database (RDBMS) berbasis server yang kuat, memiliki integritas data yang lebih ketat, dan merepresentasikan environment yang sama dengan versi production sesungguhnya. <br>
 4.Fungsi Panel Builder: Digunakan untuk membuat, mengonfigurasi, dan mengelola antarmuka admin (panel). Fitur ini juga memfasilitasi pembuatan sistem dengan multi-panel. <br><br>
+</blockquote>
+</details>
+
+<br>
+
+<details>
 
 ## JOBSHEET 02
 ## Langkah Praktikum :
@@ -90,7 +101,7 @@ setelah:<br>
 3.Integer biasa: Hanya tipe data dasar yang menampung angka bulat bebas tanpa adanya validasi atau aturan keterikatan dengan tabel lain. Sedangkan Foreign Key (Kunci Tamu): Sebuah kolom (biasanya bertipe integer/bigInteger) yang menciptakan aturan integritas referensial secara fisik di level database (seperti PostgreSQL). Foreign Key memaksa aturan bahwa nilai yang diinputkan (misalnya category_id di tabel posts) harus secara nyata ada dan valid sebagai id di tabel referensinya (categories). Ini mencegah masuknya data fiktif.<br>
 4.-> Jika menggunakan aturan Cascade (seperti cascadeOnDelete() yang baru saja diterapkan sebelumnya), maka saat sebuah Kategori dihapus, semua Post yang bernaung di bawah kategori tersebut akan ikut terhapus secara otomatis. <br>
 -> Jika menggunakan aturan Restrict, sistem database PostgreSQL akan menolak/memblokir penghapusan Kategori tersebut sampai semua Post miliknya dipindahkan ke kategori lain atau dihapus lebih dahulu.<br>
--> Jika tidak ada aturan Foreign Key sama sekali, Kategori akan terhapus, membiarkan data Post tertinggal menjadi data yatim (orphaned data) karena menunjuk pada category_id yang sudah tidak ada.<br> <br> <br>
+-> Jika tidak ada aturan Foreign Key sama sekali, Kategori akan terhapus, membiarkan data Post tertinggal menjadi data yatim (orphaned data) karena menunjuk pada category_id yang sudah tidak ada.<br> <br> <br> <br>
 
 
 ## LAPORAN PRAKTIKUM WEEK06
@@ -124,4 +135,7 @@ setelah:<br>
 2.Fungsi $casts pada model Laravel berguna untuk mengubah tipe data secara otomatis. Untuk field seperti tags yang menggunakan komponen TagsInput, datanya berupa array. Database tidak bisa menyimpan array mentah, jadi $casts akan mengubah array tersebut menjadi format JSON saat disimpan ke database, dan mengembalikannya menjadi array saat dipanggil oleh Filament.<br>
 3.Pada tabel atau form Filament, jika kita menggunakan category_id, yang muncul hanyalah angka (ID/Foreign Key). Dengan memanggil category.name, kita menyuruh Filament untuk melihat relasi tabel kategori dan menampilkan nama kategori yang sebenarnya, sehingga jauh lebih mudah dibaca oleh pengguna.<br>
 4.-> RichEditor: Adalah editor WYSIWYG (What You See Is What You Get). Tampilannya mirip seperti Microsoft Word, pengguna bisa langsung klik tombol untuk menebalkan teks, membuat tabel, dll. Hasilnya disimpan dalam format HTML. <br>
--> MarkdownEditor: Editor berbasis teks yang menggunakan sintaks khusus (seperti **teks tebal** atau # Heading). Biasanya lebih disukai oleh programmer karena formatnya lebih bersih. <br>
+-> MarkdownEditor: Editor berbasis teks yang menggunakan sintaks khusus (seperti **teks tebal** atau # Heading). Biasanya lebih disukai oleh programmer karena formatnya lebih bersih. <br><br>
+
+## JOBSHEET02
+## Mengatur Layout Dasar dengan Columns
