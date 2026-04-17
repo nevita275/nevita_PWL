@@ -6,11 +6,12 @@
 <br>
 
 <details>
-
-<summary><h4> JOBSHEET 01 </h4></summary>
+<summary><h4>JOBSHEET 01</h4></summary>
 <br>
 <blockquote>
+
 ## Langkah Praktikum :
+
 ## Langkah 1 – Membuat Project Laravel Baru 
 Install Laravel dengan nama project Week05 <br>
 ## Langkah 2 – Konfigurasi Database MySQL 
@@ -41,8 +42,11 @@ Database:
 <br>
 
 <details>
+<details>
+<summary><h4>JOBSHEET 02</h4></summary>
+<br>
+<blockquote>
 
-## JOBSHEET 02
 ## Langkah Praktikum :
 ## Langkah 1 – Melihat Daftar Perintah Filament 
 ![](img/list1.png)
