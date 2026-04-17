@@ -168,7 +168,3 @@ Menambahkan Kode Level dan Nama Level:
 </blockquote>
 </details>
 
-<br>
-
-<details>
-
