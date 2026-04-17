@@ -3,22 +3,19 @@
 ## ABSEN : 20 <br>
 
 ## LAPORAN PRAKTIKUM WEEK05
-<br>
-
 <details>
-<summary><h4>JOBSHEET 01</h4></summary>
+<summary><h3>JOBSHEET 01</h3></summary>
 <br>
 <blockquote>
 
 ## Langkah Praktikum :
-
 ## Langkah 1 – Membuat Project Laravel Baru 
 Install Laravel dengan nama project Week05 <br>
 ## Langkah 2 – Konfigurasi Database MySQL 
 1.Edit file .env
 ![](img/database.png)
 2.Jalankan migrasi
-![](img/migrate.png) <br>
+![](img/migrate.png) 
 ## Langkah 3 – Install Filament v4 
 1.Install Filament
 ![](img/filament.png)
@@ -26,7 +23,7 @@ Install Laravel dengan nama project Week05 <br>
 ![](img/panel1.png)
 ![](img/panel2.png) <br>
 ## Langkah 4 – Membuat User Admin 
-![](img/user.png)
+![](img/user.png) <br>
 ## Langkah 5 – Menjalankan Aplikasi 
 ![](img/login.png)
 Database:
@@ -45,7 +42,6 @@ Database:
 <summary><h4>JOBSHEET 02</h4></summary>
 <br>
 <blockquote>
-
 ## Langkah Praktikum :
 ## Langkah 1 – Melihat Daftar Perintah Filament 
 ![](img/list1.png)
