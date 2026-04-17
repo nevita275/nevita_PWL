@@ -39,9 +39,10 @@ Database:
 <br>
 
 <details>
-<summary><h4>JOBSHEET 02</h4></summary>
+<summary><h3>JOBSHEET 02</h3></summary>
 <br>
 <blockquote>
+
 ## Langkah Praktikum :
 ## Langkah 1 – Melihat Daftar Perintah Filament 
 ![](img/list1.png)
@@ -77,7 +78,7 @@ setelah:<br>
 <br>
 
 <details>
-<summary><h4>JOBSHEET 03</h4></summary>
+<summary><h3>JOBSHEET 03</h3></summary>
 <br>
 <blockquote>
 
@@ -112,11 +113,11 @@ setelah:<br>
 </blockquote>
 </details>
 
-<br> <br> <br> <br>
+<br> <br> 
 
 ## LAPORAN PRAKTIKUM WEEK06
 <details>
-<summary><h4>JOBSHEET 01</h4></summary>
+<summary><h3>JOBSHEET 01</h3></summary>
 <br>
 <blockquote>
 
@@ -156,7 +157,7 @@ setelah:<br>
 <br>
 
 <details>
-<summary><h4>JOBSHEET 02</h4></summary>
+<summary><h3>JOBSHEET 02</h3></summary>
 <br>
 <blockquote>
 
