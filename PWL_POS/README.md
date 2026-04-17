@@ -1,22 +1,25 @@
-NAMA    : NEVITA TRIYA YULIANA <br>
-NIM     : 244107020208 <br>
-KELAS   : TI-2F
-<br><br>
+## NAMA    : NEVITA TRIYA YULIANA <br>
+## NIM     : 244107020208 <br>
+## KELAS   : TI-2F
 
-PRAKTIKUM WEEK 03: <br>
-PRAKTIKUM 01:
+<details>
+<summary><h3>PRAKTIKUM WEEK 03</h3></summary>
+<br>
+<blockquote>
+
+## PRAKTIKUM 01:
 ![DATABASE](screenshoot/database.png) <br>
 
-PRAKTIKUM 02.1:
+## PRAKTIKUM 02.1:
 ![CEK](screenshoot/database_m_level.png)
 ![CEK2](screenshoot/m_level_table.png)
 ![CEK1](screenshoot/kategori_supplier.png) <br>
 
-PRAKTIKUM 02.2:
+## PRAKTIKUM 02.2:
 ![CEK3](screenshoot/barang_penjualan_stok_penjualandetail.png)
 ![ERD](screenshoot/erd.png) <br>
 
-PRAKTIKUM 03: <br>
+## PRAKTIKUM 03: <br>
 LevelSeeder:
 ![LEVELSEEDER](screenshoot/levelseeder.png)
 UserSeeder:
@@ -34,7 +37,7 @@ PenjualanSeeder:
 PenjualanDetailSeeder:
 ![PENJUALANDETAIL](screenshoot/penjualandetailseeder.png) <br>
 
-PRAKTIKUM 04: <br>
+## PRAKTIKUM 04: <br>
 Insert Data Baru Level:
 ![INSERT](screenshoot/insertdatabaru.png) <br>
 Update Data Level:
@@ -46,7 +49,7 @@ Delete Data Level:
 Output:
 ![HASILTABEL](screenshoot/hasiltabel.png) <br>
 
-PRAKTIKUM 05: <br>
+## PRAKTIKUM 05: <br>
 Insert Data Kategori:
 ![INSERTDATA](screenshoot/insertdatakategori.png)
 ![INSERTDATABASE](screenshoot/insertkategoridatabase.png) <br>
@@ -59,7 +62,7 @@ Detele Data Kategori
 Output:
 ![HASIL](screenshoot/hasiltabelkategori.png)
 
-PRAKTIKUM 06:
+## PRAKTIKUM 06:
 ![MODIF1](screenshoot/modifuser.png)
 ![MODIF3](screenshoot/modifuser3.png)
 
@@ -86,14 +89,23 @@ PENUTUP: <br>
 
 11.Tujuan penulisan 'protected $table & $primaryKey': Laravel Eloquent secara default akan mencari nama tabel berbentuk plural (misal: user_models) dan primary key bernama id. Karena kita menggunakan nama tabel kustom (m_user) dan PK kustom (user_id), kita wajib mendeklarasikan properti tersebut agar Model tahu tabel mana yang harus diakses. <br>
 
-12.Cara yang lebih mudah (DB Facade / Query Builder / Eloquent ORM): Yang paling mudah dan efisien adalah Eloquent ORM. Karena memperlakukan tabel sebagai Objek (Object Oriented), kodenya menjadi jauh lebih rapi, tidak perlu menulis syntax SQL yang panjang secara manual, dan sangat memudahkan ketika harus berurusan dengan relasi antar tabel nantinya. <br>
-<br><br><br>
+12.Cara yang lebih mudah (DB Facade / Query Builder / Eloquent ORM): Yang paling mudah dan efisien adalah Eloquent ORM. Karena memperlakukan tabel sebagai Objek (Object Oriented), kodenya menjadi jauh lebih rapi, tidak perlu menulis syntax SQL yang panjang secara manual, dan sangat memudahkan ketika harus berurusan dengan relasi antar tabel nantinya.
+</blockquote>
+</details>
 
-PRAKTIKUM WEEK 04: <br>
-PRAKTIKUM 01($fillable):
+<br>
+
+<details>
+
+<details>
+<summary><h3>PRAKTIKUM WEEK 04</h3></summary>
+<br>
+<blockquote>
+
+## PRAKTIKUM 01($fillable):
 ![WEEK4](screenshoot/propertifillable.png) <br>
 
-PRAKTIKUM 02.1(Retrieving Single Models): <br>
+## PRAKTIKUM 02.1(Retrieving Single Models): <br>
 (find(1)):
 ![WEEK4](screenshoot/find1.png)
 (findOr(1)):
@@ -101,7 +113,7 @@ PRAKTIKUM 02.1(Retrieving Single Models): <br>
 (findOr(20)):
 ![WEEK4](screenshoot/findor20.png) <br>
 
-PRAKTIKUM 02.2(Not Found Exceptions): <br>
+## PRAKTIKUM 02.2(Not Found Exceptions): <br>
 findOrFail(1):
 ![WEEK4](screenshoot/findorfail1.png)
 findOrfail(manager9):
@@ -112,7 +124,7 @@ PRAKTIKUM 02.03(Retreiving Aggregrates):
 Menampilkan jumlah pengguna dengan id 2:
 ![WEEK4](screenshoot/jmlhpenggunaid2.png) <br>
 
-PRAKTIKUM 02.4(Retreiving or Creating Models): <br>
+## PRAKTIKUM 02.4(Retreiving or Creating Models): <br>
 firstOrCreate Manager:
 ![WEEK4](screenshoot/manager.png)
 firstOrCreate Manager22:
@@ -127,13 +139,13 @@ Menambahkan $user->save();:
 ![WEEK4](screenshoot/firstornewmanager33+save.png) 
 ![WEEK4](screenshoot/dbfirstornewmanager33+save.png) <br>
 
-PRAKTIKUM 02.5(Attribute Changes): <br>
+## PRAKTIKUM 02.5(Attribute Changes): <br>
 isDirty():
 ![WEEK4](screenshoot/isdirty.png)
 wasChanged:
 ![WEEK4](screenshoot/waschanged.png) <br>
 
-PRAKTIKUM 02.6(Create, Read, Update, Delete (CRUD)): <br>
+## PRAKTIKUM 02.6(Create, Read, Update, Delete (CRUD)): <br>
 Langkah 1&2:
 ![WEEK4](screenshoot/langkah1&2.png) <br>
 Langkah 4s/d6:
@@ -148,8 +160,15 @@ Mengubah Data user:
 Menghapus Data user:
 ![WEEK4](screenshoot/deletedatauser.png) <br>
 
-PRAKTIKUM 02.7(Relationships): <br>
+## PRAKTIKUM 02.7(Relationships): <br>
 Relasi Antar Tabel:
 ![WEEK4](screenshoot/relasiantartabel.png)
 Menambahkan Kode Level dan Nama Level:
 ![WEEK4](screenshoot/kodelevel&namalevel.png)
+</blockquote>
+</details>
+
+<br>
+
+<details>
+
