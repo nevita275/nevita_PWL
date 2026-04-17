@@ -35,7 +35,7 @@ Database:
 1.Kelebihan Filament: Memungkinkan pembuatan admin panel dengan cepat dan elegan tanpa banyak coding manual, karena menyediakan banyak komponen UI dan fitur bawaan. <br>
 2.Filament dibangun menggunakan Livewire untuk memberikan interaktivitas dinamis pada halaman web tanpa perlu menulis banyak kode JavaScript khusus atau melakukan reload halaman penuh. <br>
 3.SQLite adalah database berbasis file yang sangat ringan dan mudah disetup (cocok untuk testing cepat). Sedangkan MySQL atau PostgreSQL (yang digunakan pada project ini di pgAdmin) adalah sistem manajemen database (RDBMS) berbasis server yang kuat, memiliki integritas data yang lebih ketat, dan merepresentasikan environment yang sama dengan versi production sesungguhnya. <br>
-4.Fungsi Panel Builder: Digunakan untuk membuat, mengonfigurasi, dan mengelola antarmuka admin (panel). Fitur ini juga memfasilitasi pembuatan sistem dengan multi-panel. <br><br>
+4.Fungsi Panel Builder: Digunakan untuk membuat, mengonfigurasi, dan mengelola antarmuka admin (panel). Fitur ini juga memfasilitasi pembuatan sistem dengan multi-panel. 
 </blockquote>
 </details>
 
@@ -74,7 +74,7 @@ setelah:<br>
 1.Karena Filament menggunakan arsitektur Resource-driven berbasis Laravel (Eloquent & Livewire). Perintah make:filament-resource otomatis men-generate struktur halaman lengkap (List, Create, Edit) yang sudah terhubung dengan model database, sehingga developer tidak perlu menulis controller, routing, atau view (HTML/Blade) secara manual. <br>
 2.Form Schema untuk Mengatur antarmuka input data (seperti teks, dropdown) untuk halaman Create (tambah) dan Edit (ubah). Sedangkan Table Schema untuk Mengatur antarmuka tampilan data (seperti kolom informasi) untuk halaman List (daftar/tabel). <br>
 3.Cukup tambahkan metode ->unique(ignoreRecord: true) pada komponen TextInput di dalam Form Schema. Pengaturan ignoreRecord: true mencegah error validasi saat pengguna sedang memperbarui (edit) data miliknya sendiri. <br>
-4.Karena Filament otomatis terintegrasi dengan sistem autentikasi Laravel. Ketika input didefinisikan sebagai ->password(), Filament dan model User Laravel (melalui casting) akan secara otomatis mengenkripsi (hash) password tersebut sebelum disimpan ke database.<br><br>
+4.Karena Filament otomatis terintegrasi dengan sistem autentikasi Laravel. Ketika input didefinisikan sebagai ->password(), Filament dan model User Laravel (melalui casting) akan secara otomatis mengenkripsi (hash) password tersebut sebelum disimpan ke database.
 </blockquote>
 </details>
 
@@ -153,7 +153,7 @@ setelah:<br>
 2.Fungsi $casts pada model Laravel berguna untuk mengubah tipe data secara otomatis. Untuk field seperti tags yang menggunakan komponen TagsInput, datanya berupa array. Database tidak bisa menyimpan array mentah, jadi $casts akan mengubah array tersebut menjadi format JSON saat disimpan ke database, dan mengembalikannya menjadi array saat dipanggil oleh Filament.<br>
 3.Pada tabel atau form Filament, jika kita menggunakan category_id, yang muncul hanyalah angka (ID/Foreign Key). Dengan memanggil category.name, kita menyuruh Filament untuk melihat relasi tabel kategori dan menampilkan nama kategori yang sebenarnya, sehingga jauh lebih mudah dibaca oleh pengguna.<br>
 4.-> RichEditor: Adalah editor WYSIWYG (What You See Is What You Get). Tampilannya mirip seperti Microsoft Word, pengguna bisa langsung klik tombol untuk menebalkan teks, membuat tabel, dll. Hasilnya disimpan dalam format HTML. <br>
--> MarkdownEditor: Editor berbasis teks yang menggunakan sintaks khusus (seperti **teks tebal** atau # Heading). Biasanya lebih disukai oleh programmer karena formatnya lebih bersih. <br><br>
+-> MarkdownEditor: Editor berbasis teks yang menggunakan sintaks khusus (seperti **teks tebal** atau # Heading). Biasanya lebih disukai oleh programmer karena formatnya lebih bersih. 
 </blockquote>
 </details>
 
