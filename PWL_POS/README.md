@@ -66,7 +66,7 @@ Output:
 ![MODIF1](screenshoot/modifuser.png)
 ![MODIF3](screenshoot/modifuser3.png)
 
-PENUTUP: <br>
+**PENUTUP:** <br>
 1.Fungsi APP_KEY pada file .env Laravel: Berfungsi sebagai kunci rahasia (secret key) utama yang digunakan oleh Laravel untuk berbagai proses enkripsi dasar, seperti mengamankan session, enkripsi cookies, dan pembuatan token sandi. <br>
 
 2.Cara generate nilai APP_KEY: Menggunakan perintah terminal php artisan 'key:generate'. <br>
@@ -96,8 +96,6 @@ PENUTUP: <br>
 <br>
 
 <details>
-
-<details>
 <summary><h3>PRAKTIKUM WEEK 04</h3></summary>
 <br>
 <blockquote>
@@ -119,7 +117,7 @@ findOrFail(1):
 findOrfail(manager9):
 ![WEEK4](screenshoot/findorfailmanager9.png) <br>
 
-PRAKTIKUM 02.03(Retreiving Aggregrates): 
+## PRAKTIKUM 02.03(Retreiving Aggregrates): 
 ![WEEK4](screenshoot/count.png) <br>
 Menampilkan jumlah pengguna dengan id 2:
 ![WEEK4](screenshoot/jmlhpenggunaid2.png) <br>
@@ -167,4 +165,4 @@ Menambahkan Kode Level dan Nama Level:
 ![WEEK4](screenshoot/kodelevel&namalevel.png)
 </blockquote>
 </details>
-
+<br>
