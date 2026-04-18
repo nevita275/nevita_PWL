@@ -195,3 +195,32 @@ Sistem grid 12 kolom memberikan fleksibilitas tinggi dalam mengatur proporsi leb
 </details>
 
 <br>
+
+<details>
+<summary><h3>JOBSHEET 03</h3></summary>
+<br>
+<blockquote>
+
+## Cara Menambahkan Validasi
+**1. Menggunakan Method required()**
+![](img/web25.png)
+**2. Menggunakan rule()**
+![](img/web26.png)
+**3. Menggunakan rules() (Multiple Validation)**
+![](img/web27.png)
+## Validasi Unique
+![](img/web28.png)
+## Mengganti Pesan Error (Custom Message)
+![](img/web29.png)
+##  Analisis & Diskusi
+**1. Mengapa validasi penting pada admin panel?** <br>
+Validasi sangat penting pada admin panel untuk menjaga integritas, kualitas, dan keamanan data yang masuk ke dalam sistem. Validasi mencegah admin (atau pengguna) dari menyimpan data yang tidak lengkap (seperti lupa mengisi kolom wajib), salah format, atau memasukkan data duplikat (seperti slug yang harusnya unik). Tanpa validasi, aplikasi akan sangat rentan terhadap error database (seperti Not Null Violation yang kamu alami sebelumnya) dan celah keamanan. <br>
+**2. Apa perbedaan validasi client-side dan server-side?** <br>
+-> Client-side: Validasi yang dilakukan langsung di browser pengguna (biasanya menggunakan HTML5 atau JavaScript) sebelum data dikirim ke server. Tujuannya untuk memberikan respon (feedback) yang instan kepada pengguna. Namun, validasi ini tidak aman karena sangat mudah ditembus atau dimatikan oleh user. Sedangkan
+-> Server-side: Validasi yang dilakukan di dalam server (oleh Laravel/PHP) setelah pengguna menekan tombol submit. Ini adalah tembok pertahanan utama dan paling aman karena tidak bisa diakali oleh browser. Sesuai modul, Filament sepenuhnya menggunakan dan mengandalkan sistem validasi server-side yang tangguh dari Laravel ini. <br>
+**3. Mengapa unique otomatis bekerja saat edit data?** <br>
+Pada Filament yang terintegrasi dengan Laravel, aturan unique() sudah dirancang dengan cerdas. Ketika kamu membuka form "Edit" pada suatu data, Filament secara otomatis memberitahu query database mengenai ID data (record) yang sedang aktif tersebut. Sehingga, sistem akan mengecualikan (mengabaikan) data milik ID itu sendiri dari pengecekan duplikasi. Itulah mengapa saat mengedit data, tidak akan mendapat error "sudah dipakai" untuk data yang sama. <br>
+**4. Kapan kita perlu menggunakan rules array dibanding string?** <br>
+Wajib menggunakan format Array (['required', 'min:3']) dibanding String ('required|min:3') apabila di dalam aturan validasi yang kita buat terdapat karakter pipa (|) atau koma (,), contohnya saat menggunakan aturan validasi Regular Expression (Regex). Jika tetap dipaksa menggunakan string, Laravel akan bingung memecah aturannya karena mengira karakter tersebut adalah batas antar-validasi. Namun untuk validasi umum yang sederhana, format string lebih disukai karena lebih cepat diketik.
+</blockquote>
+</details>
