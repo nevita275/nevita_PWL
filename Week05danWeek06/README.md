@@ -146,10 +146,14 @@ setelah:<br>
 ![](img/web17.png)
 ![](img/web18.png)
 ## Analisis & Diskusi
-1.File yang diunggah secara default disimpan di folder storage/app/public yang tidak dapat diakses langsung oleh browser. Perintah storage:link membuat jalan pintas (symlink) dari folder public/storage ke storage/app/public sehingga gambar tersebut bisa diakses secara publik dan ditampilkan di web.<br>
-2.Fungsi $casts pada model Laravel berguna untuk mengubah tipe data secara otomatis. Untuk field seperti tags yang menggunakan komponen TagsInput, datanya berupa array. Database tidak bisa menyimpan array mentah, jadi $casts akan mengubah array tersebut menjadi format JSON saat disimpan ke database, dan mengembalikannya menjadi array saat dipanggil oleh Filament.<br>
-3.Pada tabel atau form Filament, jika kita menggunakan category_id, yang muncul hanyalah angka (ID/Foreign Key). Dengan memanggil category.name, kita menyuruh Filament untuk melihat relasi tabel kategori dan menampilkan nama kategori yang sebenarnya, sehingga jauh lebih mudah dibaca oleh pengguna.<br>
-4.-> RichEditor: Adalah editor WYSIWYG (What You See Is What You Get). Tampilannya mirip seperti Microsoft Word, pengguna bisa langsung klik tombol untuk menebalkan teks, membuat tabel, dll. Hasilnya disimpan dalam format HTML. <br>
+**1.Mengapa kita perlu storage:link?**
+File yang diunggah secara default disimpan di folder storage/app/public yang tidak dapat diakses langsung oleh browser. Perintah storage:link membuat jalan pintas (symlink) dari folder public/storage ke storage/app/public sehingga gambar tersebut bisa diakses secara publik dan ditampilkan di web.<br>
+**2.Apa fungsi $casts untuk field JSON?**
+Fungsi $casts pada model Laravel berguna untuk mengubah tipe data secara otomatis. Untuk field seperti tags yang menggunakan komponen TagsInput, datanya berupa array. Database tidak bisa menyimpan array mentah, jadi $casts akan mengubah array tersebut menjadi format JSON saat disimpan ke database, dan mengembalikannya menjadi array saat dipanggil oleh Filament.<br>
+**3.Mengapa kita menggunakan category.name bukan category_id?**
+Pada tabel atau form Filament, jika kita menggunakan category_id, yang muncul hanyalah angka (ID/Foreign Key). Dengan memanggil category.name, kita menyuruh Filament untuk melihat relasi tabel kategori dan menampilkan nama kategori yang sebenarnya, sehingga jauh lebih mudah dibaca oleh pengguna.<br>
+**4.Apa perbedaan RichEditor dan MarkdownEditor?**
+-> RichEditor: Adalah editor WYSIWYG (What You See Is What You Get). Tampilannya mirip seperti Microsoft Word, pengguna bisa langsung klik tombol untuk menebalkan teks, membuat tabel, dll. Hasilnya disimpan dalam format HTML. <br>
 -> MarkdownEditor: Editor berbasis teks yang menggunakan sintaks khusus (seperti **teks tebal** atau # Heading). Biasanya lebih disukai oleh programmer karena formatnya lebih bersih. 
 </blockquote>
 </details>
@@ -163,5 +167,31 @@ setelah:<br>
 
 ## Langkah Praktikum
 ## Mengatur Layout Dasar dengan Columns
+Columns 3
+![](img/colums3.png)
+Layout beda (2 columns)
+![](img/columns2.png)
+## Menggunakan Section
+![](img/web19.png)
+## Membuat Section Terpisah
+![](img/web20.png)
+![](img/web21.png)
+## Menggunakan Group untuk Layout Horizontal
+![](img/web22.png)
+![](img/web23.png)
+## Mengatur Lebar Field Individua
+![](img/web24.png)
+## Analisis & Diskusi
+**1.Mengapa layout form penting dalam aplikasi admin?**
+Layout form sangat penting karena membuat tampilan form yang tadinya hanya tersusun sederhana secara vertikal menjadi jauh lebih rapi, terstruktur, dan terlihat profesional. Dengan mengatur layout, kita bisa mengelompokkan inputan yang saling berkaitan (misalnya memisahkan bagian utama artikel, area upload gambar, dan informasi meta) sehingga memudahkan admin dalam membaca dan mengisi data secara efisien. <br>
+**2.Apa perbedaan Section dan Group?**
+-> Section digunakan untuk mengelompokkan beberapa field ke dalam sebuah tampilan visual berupa kotak (box) yang nyata. Pada Section, kita juga bisa menambahkan elemen antarmuka seperti judul, deskripsi (description()), dan ikon (icon()). Sedangkan 
+-> Group Digunakan murni untuk mengatur struktur layout tanpa memberikan tampilan visual apa pun (transparan/tanpa box). Group sangat berguna untuk mengelompokkan beberapa Section atau field agar bisa diatur proporsi lebar tampilannya secara bersamaan dalam satu kesatuan (misalnya membagi porsi layar kiri dan kanan). <br>
+**3.Kapan kita menggunakan columnSpanFull()?**
+Fungsi columnSpanFull() digunakan ketika kita ingin sebuah komponen field mengambil jatah lebar secara penuh (100% dari ruang yang tersedia), mengabaikan pembagian batas kolom grid yang sedang aktif. Pada praktikum ini, fitur tersebut digunakan pada area penulisan konten/artikel (seperti MarkdownEditor pada field body atau content) karena editor teks membutuhkan area kerja yang sangat luas untuk mengetik. <br>
+**4.Apa keuntungan sistem grid 12 kolom?**
+Sistem grid 12 kolom memberikan fleksibilitas tinggi dalam mengatur proporsi lebar layout antarmuka. Karena angka 12 dapat dibagi dengan mudah secara merata (dibagi 1, 2, 3, 4, atau 6), developer bisa menciptakan berbagai macam variasi tampilan. Contohnya dalam jobsheet 2 ini, sistem grid memudahkan kita membuat layout asimetris yang proporsional, yaitu memberikan porsi $2/3$ lebar layar untuk field utama di sebelah kiri, dan $1/3$ lebar layar untuk pengaturan meta/gambar di sebelah kanan.
 </blockquote>
 </details>
+
+<br>
