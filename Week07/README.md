@@ -33,6 +33,7 @@
 **Halaman Awal**
 ![](img/web8.png)
 ![](img/web9.png)
+
 ## Analisis & Diskusi
 **1. Mengapa Wizard Form lebih baik untuk form panjang?** <br>
 Wizard Form lebih baik karena menerapkan prinsip chunking (memecah informasi menjadi bagian-bagian kecil). Saat berhadapan dengan form yang sangat panjang (seperti data produk e-commerce yang kompleks), pengguna sering kali merasa kewalahan (overwhelmed). Dengan Wizard Form, tampilan menjadi lebih terstruktur, fokus pengguna terjaga, dan proses pengisian data terasa lebih ringan dan sistematis. <br>
@@ -46,3 +47,37 @@ Fitur ->skippable() digunakan ketika ada sebuah langkah (step) di dalam form yan
 Tidak. Wizard Form sangat cocok dan direkomendasikan untuk form yang panjang, berjenjang, dan kompleks. Namun, untuk form yang sederhana dan hanya membutuhkan sedikit kolom (misalnya form input Kategori yang hanya berisi nama dan deskripsi singkat), penggunaan wizard justru akan memperburuk User Experience (UX) karena memaksa pengguna melakukan ekstra klik ("Next") yang sebenarnya tidak perlu.
 </blockquote>
 </details>
+
+<br>
+
+<details>
+<summary><h3>JOBSHEET 02</h3></summary>
+<br>
+<blockquote>
+
+## Membuat Section – Product Info
+![](img/web10.png)
+## Section – Pricing & Stock
+![](img/web11.png)
+## Section – Media & Status
+**Menampilkan Gambar**
+![](img/web12.png)<br>
+**Menampilkan Status Boolean**
+![](img/web13.png)<br>
+**Menampilkan Tanggal dengan Format**
+![](img/web14.png)
+
+## Analisis & Diskusi
+**1. Mengapa View Page tidak cocok menggunakan form input?** <br>
+View Page dirancang secara khusus sebagai halaman untuk membaca informasi (read-only display), bukan untuk memasukkan atau mengedit data. Jika kita menggunakan komponen form input yang sekadar dimatikan (disabled), tampilannya menjadi kurang informatif, kaku, dan berpotensi membingungkan pengguna karena menyerupai halaman Edit . Sebaliknya, penggunaan Info List membuat tampilan data menjadi jauh lebih rapi, terstruktur, dan terlihat profesional. <br>
+**2. Apa perbedaan TextColumn dan TextEntry?** <br>
+-> TextColumn: Digunakan di dalam komponen Tabel (pada halaman List) untuk menampilkan data dalam bentuk kolom dan baris yang sejajar. Sedangkan <br>
+-> TextEntry: Digunakan di dalam komponen Info List (pada halaman View Detail) untuk menampilkan teks informasi yang berdiri sendiri atau berada di dalam sebuah Section. <br>
+**3. Kapan kita menggunakan badge?** <br>
+Kita menggunakan fitur badge() ketika ingin menampilkan suatu data dalam bentuk label tersendiri agar lebih menonjol. Penggunaan ini sangat cocok diterapkan pada data yang bersifat penting, unik, atau berupa kategori singkat agar cepat dikenali oleh mata, seperti menampilkan kode identitas unik (SKU), status pengguna, atau label produk. <br>
+**4. Apa keuntungan menggunakan IconEntry untuk boolean?** <br>
+Keuntungan utama menggunakan IconEntry adalah kemampuannya menerjemahkan nilai logika dasar (True/False atau 1/0) menjadi indikator visual yang sangat intuitif. Jika nilainya true maka akan muncul ikon centang (✔), dan jika false akan muncul ikon silang (✖) . Secara psikologis, melihat ikon visual membuat pengguna jauh lebih cepat menangkap informasi status (seperti is_active atau is_featured) dibandingkan harus membaca teks "Ya/Tidak".
+</blockquote>
+</details>
+
+<br>
