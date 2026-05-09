@@ -10,17 +10,17 @@
 <blockquote>
 
 ## 1. Search pada Title 
-**Code**
+**Code**<br>
 ![](img/code1.png)<br>
 **Output**
 ![](img/web1.png)
 ## 2. Search pada Slug
-**Code**
+**Code**<br>
 ![](img/code2.png) <br>
 **Output**
 ![](img/web2.png)
 ## 3. Search pada Relasi Category
-**Code**
+**Code**<br>
 ![](img/code3.png)<br>
 **Output**
 ![](img/web3.png)
@@ -35,12 +35,12 @@
 <blockquote>
 
 ## 1. Tambahkan Filter Created At
-**Code**
+**Code**<br>
 ![](img/code4.png)<br>
 **Output**
 ![](img/web4.png)
 ## 2. Menambahkan Query Logic
-**Code**
+**Code**<br>
 ![](img/code5.png)<br>
 **Output**
 ![](img/web5.png)
