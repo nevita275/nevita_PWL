@@ -39,18 +39,18 @@
 <blockquote>
 
 ## 1. Tambahkan Custom Action
-**Code**
+**Code**<br>
 ![](img/code3.png)<br>
 ## 2. Tambahkan Form Input pada Action
-**Code**
+**Code**<br>
 ![](img/code4.png)<br>
 ## Ouput
 ![](img/web3.png)
 ## 3. Tambahkan Logic untuk Update Data
-**Code**
+**Code**<br>
 ![](img/code5.png)
 ## 4. Tambahkan Icon
-**Code**
+**Code**<br>
 ![](img/code6.png)
 ## Output
 ![](img/web4.png)
