@@ -66,9 +66,9 @@
 <blockquote>
 
 ## Code
-**CategoryResource.php**
+**CategoryResource.php** <br>
 ![](img/code6.png)<br>
-**Category.php**
+**Category.php** <br>
 ![](img/code7.png)<br>
 ## Output
 ![](img/web3.png)<br>
