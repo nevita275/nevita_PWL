@@ -1,58 +1,72 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## NAMA  : NEVITA TRIYA YULIANA <br>
+## KELAS : TI-2F <br>
+## ABSEN : 19 <br>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## LAPORAN PRAKTIKUM WEEK 16 – RESTful API<br>
+## LANGKAH - LANGKAH PRAKTIKUM:
 
-## About Laravel
+<details>
+<summary><h3>Praktikum 1: Membuat autentikasi token pada RESTful API</h3></summary>
+<br>
+<blockquote>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 1. Buatlah proyek baru Laravel 
+![](img/langkah1.png)
+## 2. Tambahkan package laravel sanctum 
+![](img/langkah2.png)
+## 3. Publish konfigurasi dari Laravel sanctum
+![](img/langkah3.png)
+## 4. Sisipkan trait HasApiTokens ke dalam file User.php
+![](img/langkah4.png)
+## 5. Buatlah database kosong dan atur koneksi ke database baru dengan menyesuaikan file .env
+![](img/langkah5.png)
+## 6. Jalankan migrate data 
+![](img/langkah6.png)
+## 7. Pastikan proyek bisa dijalankan dan tidak ada kesalahan
+![](img/langkah7.png)
+## 8. Tambahkan trait ApiResponse.php di lokasi directory app/Traits/ApiResponse.php
+![](img/langkah8.png)
+## 9. Buatlah custom request untuk menangani request spesifik terhadap API
+![](img/langkah9.png)
+## 10. Class ApiRequest diganti menjadi abstract class ApiRequest
+![](img/langkah10.png)
+## 11. Buatlah controller untuk menangani autentikasi
+![](img/langkah11.png)
+## 12. Tambahkan Trait ApiResponse
+![](img/langkah12.png)
+## 13. Buatlah custom request dengan nama RegisterRequest
+![](img/langkah13.png)
+## 14. Ubah parent class yng ada di file RegisterRequest.php menjadi ApiRequest
+![](img/langkah14.png)
+## 15. Tambahkan function register dengan parameter RegisterRequest pada Api/AuthController
+![](img/langkah15.png)
+## 16. Buatlah custom request dengan nama LoginRequest, lalu modifikasi isi dari LoginRequest.php
+![](img/langkah16.png)<br>
+![](img/langkah16_1.png)
+## 17. Letakkan function login pada file Api/AuthController.php
+![](img/langkah17.png)
+## 18. Tambahkan route baru untuk register dan juga login pada file routes/api.php
+![](img/langkah18.png)
+## 19. Ubah semua path {{baseurl}} menjadi path server development
+**Register**<br>
+![](img/langkah19.png)<br>
+**Login**<br>
+![](img/langkah19_1.png)
+## 20. Copy token yang didapatkan dari proses login atau register pada postman
+**Register**<br>
+![](img/langkah20_1.png)<br>
+![](img/langkah20_2.png)<br>
+**Login** <br>
+![](img/langkah20_3.png)<br>
+![](img/langkah20_4.png)<br>
+## 21. Tambahkan fungsi untuk menghapus token sebagai implementasi fitur logout pada file Api/AuthController.php
+![](img/langkah21.png)
+## 22. Tambahkan route pada routes/api.php untuk endpoint logout
+![](img/langkah22.png)
+## 23. Buka postman, lakukan percobaan request logout dengan menyisipkan informasi token pada tab Authorization di postman
+![](img/langkah23.png)
+</blockquote>
+</details>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
-
-```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
-```
-
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
