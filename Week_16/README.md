@@ -70,3 +70,62 @@
 
 <br>
 
+<details>
+<summary><h3>Praktikum 2: CRUD dalam RESTful API</h3></summary>
+<br>
+<blockquote>
+
+## 1. Buatlah migration untuk mendefinisikan tabel todos
+![](img/langkah24.png)
+## 2. Lengkapi fungsi up pada migration todos
+![](img/langkah25.png)
+## 3. Lengkapi juga fungsi down 
+![](img/langkah26.png)
+## 4. Buatlah controller dan model untuk melayani CRUD data todo dari seorang user
+![](img/langkah27.png)
+## 5. Buka model Todo dan lengkapi definisi relasi dengan model User
+![](img/langkah28.png)
+## 6. Tambahkan fungsi todos pada model User
+![](img/langkah29.png)
+## 7. Buatlah custom request
+![](img/langkah30.png)
+## 8. Ubah parent/base class dari TodoRequest menjadi ApiRequest
+![](img/langkah31.png)
+## 9. Lengkapi fungsi authorize sehingga hanya bisa mengijinkan request jika http method menggunakan POST atau perubahan todo dilakukan oleh pemilik todo
+![](img/langkah32.png)
+## 10. Lengkapi juga fungsi rules dalam TodoRequest
+![](img/langkah33.png)
+## 11. Ubah file app.php dan override fungsi render
+![](img/langkah34.png)
+## 12. Tambahkan trait ApiResponse pada file Api\TodoController.php
+![](img/langkah35.png)
+## 13. Lengkapi proses untuk melakukan CRUD pada resource Todo
+![](img/langkah36.png)<br>
+![](img/langkah36_1.png)
+## 14. Tambahkan route resource pada route/api.php
+![](img/langkah37.png)
+## 15. Lakukan percobaan pada CRUD yang telah diselesaikan pada postman
+**Login Ulang**<br>
+![](img/langkah38.png)<br><br>
+**Percobaan 1: Membuat Todo (Create)**<br>
+**1. Masukkan Token Baru Pada Bearer Token yg Ada di Authorization**<br>
+![](img/langkah39.png)<br>
+**2. Masuk ke tab Headers -> tambahkan Accept dengan value application/json**<br>
+![](img/langkah40.png)<br>
+**3. Masuk ke tab Body -> pilih raw -> pilih JSON -> ketik code berikut**<br>
+![](img/langkah41.png)<br><br>
+**Percobaan 2: Melihat Semua Todo (Read All)**<br>
+Ubah menjadi GET -> Tab Body menjadi none <br>
+![](img/langkah42.png)<br><br>
+**Percobaan 3: Melihat Satu Todo Spesifik (Read One)**<br>
+Tambahkan angka 1 di belakang URL<br>
+![](img/langkah43.png)<br><br>
+**Percobaan 4: Mengubah Todo (Update)**<br>
+Ubah method menjadi PUT -> URL tetap -> Masuk ke tab Body -> pilih raw -> JSON (ganti done: true)<br>
+![](img/langkah44.png)<br><br>
+**Percobaan 5: Menghapus Todo (Delete)**<br>
+Ubah method menjadi DELETE -> URL tetap -> Tab Body menjadi none<br>
+![](img/langkah45.png)
+
+</blockquote>
+</details>
